@@ -1,0 +1,25 @@
+.body {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 3.25fr .75fr;
+}
+
+.activities-container {
+    padding: 10vw;
+    border: 1px solid green;
+
+}
+
+.title {
+    color: steelblue;
+}
+
+.activities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.Current-activity {
+    border: 1px solid red;
+}
