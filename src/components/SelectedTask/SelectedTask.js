@@ -4,14 +4,20 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const SelectedTask = ({ exerciseTime }) => {
-    const [breakTime, setBreakTime] = useState(0);
 
     const addBreak = (time) => {
-        localStorage.setItem('time', time);
+        localStorage.setItem('time', time)
+        setBreakTime(time)
+    };
+
+    const [breakTime, setBreakTime] = useState(0);
+
+    useState(() => {
         const addedTime = localStorage.getItem('time');
 
         setBreakTime(addedTime);
-    }
+    }, [])
+
 
 
 
