@@ -40,7 +40,7 @@ const SelectedTask = ({ exerciseTime }) => {
             </div>
             <div className='exercise-time'>
                 <p>Break time</p>
-                <small><span>{breakTime}</span>m</small>
+                <small><span>{breakTime ? breakTime : '00'}</span>m</small>
             </div>
 
             <button onClick={AddedToast} className='complete-btn'>Activity Completed</button>
