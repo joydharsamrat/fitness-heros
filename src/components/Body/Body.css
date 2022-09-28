@@ -20,3 +20,17 @@
 .Current-activity {
     padding: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .body {
+        display: block;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .activities {
+        display: block;
+    }
+}
