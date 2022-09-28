@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Questions = () => {
+const Question = () => {
     return (
         <div>
             <div>
@@ -13,22 +13,22 @@ const Questions = () => {
             </div>
             <div>
                 <h2>
-
+                    What is the difference between State and Props?
                 </h2>
                 <p>
-
+                    Simply put, State is the local state of the component which cannot be accessed and modified outside of the component. It's equivalent to local variables in a function. Props, on the other hand, make components reusable by giving components the ability to receive data from their parent component in the form of props.
                 </p>
             </div>
             <div>
                 <h2>
-
+                    What is useEffect() used for ?
                 </h2>
                 <p>
-
+                    We know that, the useEffect() is used for causing side effects in functional components and it is also capable for handling componentDidMount(), componentDidUpdate() and componentWillUnmount() life-cycle methods of class based components into functional component
                 </p>
             </div>
         </div>
     );
 };
 
-export default Questions;
+export default Question;
