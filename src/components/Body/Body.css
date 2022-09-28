@@ -4,9 +4,7 @@
 }
 
 .activities-container {
-    padding: 10vw;
-    border: 1px solid green;
-
+    padding: 10vh 10vw;
 }
 
 .title {
@@ -20,6 +18,5 @@
 }
 
 .Current-activity {
-    border: 1px solid red;
     padding: 10px;
 }
