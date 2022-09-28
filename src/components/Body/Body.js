@@ -3,6 +3,7 @@ import './Body.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Activity from '../Activity/Activity';
+import Client from '../Client/Client';
 
 const Body = () => {
     const [activities, setActivities] = useState([]);
@@ -26,7 +27,8 @@ const Body = () => {
                 </div>
             </div>
             <div className='Current-activity'>
-                <h1>Samrat</h1>
+                <Client></Client>
+
             </div>
         </div>
     );
