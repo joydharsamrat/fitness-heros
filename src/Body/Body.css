@@ -1,0 +1,12 @@
+.body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.activities-container {
+    border: 1px solid green;
+}
+
+.Current-activity {
+    border: 1px solid red;
+}
