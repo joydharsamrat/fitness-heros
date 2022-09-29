@@ -40,6 +40,7 @@ const Body = () => {
             </div>
             <div className='Current-activity'>
                 <Client></Client>
+                <hr />
                 <SelectedTask exerciseTime={exerciseTime}></SelectedTask>
             </div>
         </div>
